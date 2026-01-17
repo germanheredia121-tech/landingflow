@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Process from '../components/Process.astro';
+import Pricing from '../components/Pricing.astro';
+import { Spotlight } from "../components/ui/spotlight-new";
+import Faq from '../components/faq.astro'
+import Crm from '../components/crm.astro'
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout >
+	<section id="Servicios" class="relative snap-section">
+		<Spotlight client:load />
+		<Hero />
+	</section>
+	<section id="Proceso" class="snap-section">
+		<Process />
+	</section>
+		<section id="CRM" class="snap-section bg-gray-900">
+		<Crm />
+	</section>
+	<section id="Pricing" class="snap-section">
+		<Pricing />
+	</section>
+
+	<section id="faq" class="">
+		<Faq />
+	</section>
+</Layout>

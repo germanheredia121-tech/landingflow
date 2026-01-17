@@ -1,0 +1,74 @@
+---
+/* FAQSection.astro */
+---
+
+<section
+  id="faq"
+  data-allow-scroll
+  class="w-full bg-transparent text-gray-100 py-24"
+>
+  <div class="w-full max-w-5xl px-6">
+    <!-- Header -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold tracking-tight">
+        Preguntas frecuentes
+      </h2>
+      <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
+        Resolvemos las dudas más comunes sobre nuestras landing pages y el CRM.
+      </p>
+    </div>
+
+    <!-- FAQ items -->
+    <div class="space-y-4 pb-32">
+      <details class="group rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 transition-all open:bg-white/10">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+          <span>¿Qué incluye una landing page?</span>
+          <span class="transition-transform group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Diseño moderno, copy optimizado, mobile first y conexión con formularios o CRM.
+        </p>
+      </details>
+
+      <details class="group rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 transition-all open:bg-white/10">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+          <span>¿Están optimizadas para conversiones?</span>
+          <span class="transition-transform group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Sí, usamos UX/UI, CTA claros y performance optimizada.
+        </p>
+      </details>
+
+      <details class="group rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 transition-all open:bg-white/10">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+          <span>¿Qué es el CRM?</span>
+          <span class="transition-transform group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Una plataforma para gestionar leads, clientes y ventas.
+        </p>
+      </details>
+
+      <details class="group rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 transition-all open:bg-white/10">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+          <span>¿El CRM es personalizable?</span>
+          <span class="transition-transform group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Pipelines, automatizaciones, reportes y roles de usuario.
+        </p>
+      </details>
+
+      <details class="group rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 p-6 transition-all open:bg-white/10">
+        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+          <span>¿Landing y CRM se integran?</span>
+          <span class="transition-transform group-open:rotate-45">+</span>
+        </summary>
+        <p class="mt-4 text-gray-400">
+          Cada lead entra automáticamente al CRM.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
